@@ -43,4 +43,28 @@ a{
 }
 
 
+.box-blu{
+    background-color: rgb(1, 1, 205);
+    padding: 20px;
+}
+
+.box-blu > .box-rosa{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(249, 88, 201);
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.subsection2{
+    padding: 20px;
+}
+
+.subsection2 > .box{
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+
 

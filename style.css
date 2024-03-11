@@ -16,10 +16,10 @@ header{
 }
 
 .logo, .link, .login{
-    background-color:gold;
+    background-color: rgb(252, 252, 123);
     border: 1px dashed black;
     padding: 5px;
-    line-height: middle;
+    line-height: 28px;
 }
 
 .logo{
@@ -42,13 +42,12 @@ a{
     text-align: end;
 }
 
-
-.box-blu{
+.sezione-1{
     background-color: rgb(1, 1, 205);
     padding: 20px;
 }
 
-.box-blu > .box-rosa{
+.sezione-1 > .box{
     width: 600px;
     height: 200px;
     background-color: rgb(249, 88, 201);
@@ -67,4 +66,96 @@ a{
     display: flex;
 }
 
+.box-sx{
+    flex-grow: 2;
+    background-color: rgb(46, 234, 234);
+    border: 1px dashed black;
+}
 
+.box-dx{
+    flex-grow: 1;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.underline{
+    background-color:rgb(176, 175, 175); 
+    padding: 20px;
+}
+
+.underline > .box{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 700px;
+    height: 200px;
+    margin: auto;
+}
+
+.sezione-3{
+    background-color:rgb(176, 175, 175);
+    padding: 20px;
+}
+
+.sezione-3 > .box{
+    width: 700px;
+    height: 400px;
+    background-color: green;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.sezione-4{
+    background-color: black;
+    padding: 20px;
+}
+
+.sezione-4 > .box{
+    width: 700px;
+    height: 300px;
+    background-color: pink;
+    margin: auto;
+    border: 1px dashed black;
+    display: flex;
+}
+
+.sezione-4 > .box > .box-sx{
+    border: 1px dashed black;
+    flex-grow: 1;
+    background-color: rgb(235, 142, 158);
+}
+
+.sezione-4 > .box > .box-dx{
+    flex-grow: 2;
+    background-color: rgb(5, 169, 156);
+    display: flex;
+}
+
+.underbox{
+    border: 1px dashed white;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    border-top: 1px solid white;
+}
+
+.footer-box{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    margin: 15px 0;
+    border: 1px dashed black;
+    color: black;
+    background-color:rgb(235, 142, 158) ;
+}
+
+.button-footer{
+    margin: 15px 0;
+}
